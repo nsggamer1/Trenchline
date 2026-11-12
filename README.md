@@ -36,6 +36,10 @@ On the free plan, Render puts the server to sleep after about 15 minutes of no v
 
 To update the game later, replace `game.html` in the GitHub repo. Render redeploys automatically.
 
+## Password (optional)
+
+To keep strangers out, add a password in Render: open your service, then **Environment**, then **Add Environment Variable**. Key: `GAME_PASSWORD`, value: your password. Save, and Render restarts the game. Visitors then see a password box first, and are remembered for 30 days. Delete the variable to turn the password off.
+
 ## Online controls (same for everyone)
 
 | Action | Keys |

@@ -5,5 +5,5 @@
   "description": "2v2 sugarlands siege with online rooms",
   "scripts": { "start": "node server.js" },
   "engines": { "node": ">=18" },
-  "dependencies": { "ws": "8.18.0" }
+  "dependencies": { "ws": "8.22.0" }
 }
