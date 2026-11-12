@@ -1,0 +1,9 @@
+{
+  "name": "trenchline",
+  "version": "1.0.0",
+  "private": true,
+  "description": "2v2 sugarlands siege with online rooms",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": { "ws": "8.18.0" }
+}
